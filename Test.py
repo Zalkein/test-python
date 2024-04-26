@@ -45,7 +45,7 @@ hideturtle()
 while preg3 != 'forward(100)':
     print("mal mal mal")
     preg3 = input("que hay que poner ahora?: ")
-print("oleeeeeeee")
+print("Correcto...")
 sleep(0.5)
 print("ufff como que esto es muy flojito no?")
 sleep(0.5)
@@ -82,7 +82,7 @@ preg5 = int(input("cual de estas 2 es una estrella relacionada con la pelicula d
 while preg5 != 1:
     print("Mal mal mal")
     preg5 = int(input("cual de estas 2 es una estrella relacionada con la pelicula de 'principito' (1 - la de 5 puntas | 2 - la otra): "))
-print("siuuuuu")
+print("bien...")
 hideturtle()
 t1.hideturtle()
 t2.hideturtle()
