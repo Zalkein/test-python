@@ -92,7 +92,7 @@ showturtle()
 forward(100)
 t1.clear()
 t2.clear()
-preg6 = input("Que hay que poner para un giro de izquierda?: ")
+preg6 = input("Que se tiene que poner para girar a la izquierda en la pintura que tienes ahi?: ")
 while preg6 != 'left(90)':
     print("mal mal mal")
     preg6 = input("Que hay que poner para un giro de izquierda?: ")
