@@ -1,7 +1,9 @@
 from random import *
+print("Hola, soy el enemigo final de un videojuego que no existe, adivinaras las preguntas de programacion bien? VAMOS A VERLO!!")
+
 
 numero = randint(1, 10)
-adivina = int(input("Que numero espare pensando?: "))
+adivina = int(input("Que numero estoy pensando del 1 al 10?: "))
 while adivina != numero:
     print('Mal Mal Mal')
     adivina = int(input("Que numero espare pensando?: "))
@@ -94,9 +96,9 @@ preg6 = input("Que hay que poner para un giro de izquierda?: ")
 while preg6 != 'left(90)':
     print("mal mal mal")
     preg6 = input("Que hay que poner para un giro de izquierda?: ")
-print("Ok, me has enfadado...")
+print("Ok, me has hecho enfadar...")
 clear()
-write('VAS A MORIR', font=('arial', 50, 'normal'))
+write('PREPARATE!!', font=('arial', 60, 'normal'))
 hideturtle()
 sleep(1)
 print("Veamos...")
